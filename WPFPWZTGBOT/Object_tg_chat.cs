@@ -18,5 +18,10 @@ namespace WPFPWZTGBOT
         {
             Num_phone = num_phone;
         }
+        public Object_tg_chat(string num_phone, string id_chat_tg)
+        {
+            Num_phone = num_phone;
+            Id_chat_tg = id_chat_tg;
+        }
     }
 }
